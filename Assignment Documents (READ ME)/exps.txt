@@ -1,0 +1,1427 @@
+STAGE 1 (LINKED LISTS)
+
+Tests 1 to 3: Performed on file SET_A.txt
+- Parameters: 1000 key-value pairs from 1-3000, search keys random up to 3000, 20 search keys.
+
+   848	INSERTIONS	228449
+
+- 848 pairs inserted (152 duplicates were not inserted)
+- 228,449 comparisons made
+
+------------------------------
+
+TEST 1
+
+Console output:
+
+  2630	NOT_FOUND	   515
+  1822	backward 	   267
+  1243	NOT_FOUND	    74
+  2471	NOT_FOUND	   466
+    85	NOT_FOUND	   804
+  2506	NOT_FOUND	   472
+   734	NOT_FOUND	   771
+  1348	NOT_FOUND	   103
+   769	NOT_FOUND	   780
+  1997	NOT_FOUND	   321
+  2611	NOT_FOUND	   509
+  2032	baseline 	   334
+  1453	NOT_FOUND	   140
+   874	Amtrak   	   812
+   295	adherent 	   616
+   909	NOT_FOUND	   823
+  2137	NOT_FOUND	   369
+  1558	NOT_FOUND	   174
+  2172	bedpost  	   378
+   400	NOT_FOUND	   665
+
+------------------------------
+
+TEST 2
+
+Console output:
+
+  2891	NOT_FOUND	   593
+  2662	blob     	   520
+  2083	NOT_FOUND	   348
+  1504	assure   	   151
+   925	Andean   	   828
+   346	NOT_FOUND	   654
+  2767	NOT_FOUND	   552
+  2188	NOT_FOUND	   382
+  2802	bombard  	   564
+  1030	NOT_FOUND	    14
+   451	afterward	   679
+  1065	NOT_FOUND	    22
+  2293	NOT_FOUND	   411
+  2907	NOT_FOUND	   602
+  2328	NOT_FOUND	   421
+   556	alacrity 	   716
+  1170	NOT_FOUND	    49
+   591	aldehyde 	   731
+    12	AAA      	    56
+  2433	NOT_FOUND	   457
+
+------------------------------
+
+TEST 3
+
+Console output:
+
+   962	NOT_FOUND	   838
+  1926	NOT_FOUND	   299
+  2540	NOT_FOUND	   486
+   154	NOT_FOUND	   166
+  1382	NOT_FOUND	   116
+  1996	NOT_FOUND	   321
+  2610	Blaine   	   508
+  2031	NOT_FOUND	   334
+  1452	NOT_FOUND	   140
+  2066	NOT_FOUND	   347
+  2680	bloodshed	   528
+  2101	NOT_FOUND	   355
+  1522	NOT_FOUND	   160
+  2136	NOT_FOUND	   369
+  1557	NOT_FOUND	   174
+  2171	NOT_FOUND	   378
+  1592	NOT_FOUND	   181
+  2206	NOT_FOUND	   387
+  1627	NOT_FOUND	   194
+  2241	NOT_FOUND	   400
+
+------------------------------
+
+Tests 4 to 6: Performed on file SET_B.txt
+- Parameters: 1000 key-value pairs from 1-6000, search keys random up to 6000, 20 search keys.
+
+   919	INSERTIONS	232745
+
+- 919 pairs inserted (81 duplicates were not inserted)
+- 232,745 comparisons made
+
+------------------------------
+
+TEST 4
+
+Console output:
+
+  5616	NOT_FOUND	   791
+  3545	NOT_FOUND	   452
+  1159	NOT_FOUND	    33
+  5966	NOT_FOUND	   851
+  2387	NOT_FOUND	   246
+     1	10th     	     1
+  3615	NOT_FOUND	   465
+  1229	NOT_FOUND	    43
+  3650	NOT_FOUND	   468
+  1264	NOT_FOUND	    49
+  4878	NOT_FOUND	   653
+  2492	NOT_FOUND	   259
+   106	absolve  	    16
+  2527	NOT_FOUND	   263
+  4948	compression	   670
+  2562	NOT_FOUND	   274
+   176	NOT_FOUND	   144
+  2597	NOT_FOUND	   280
+   211	NOT_FOUND	   202
+  3825	casework 	   496
+
+------------------------------
+
+TEST 5
+
+Console output:
+
+  2877	NOT_FOUND	   332
+   771	A&M      	   882
+  3192	NOT_FOUND	   391
+   806	NOT_FOUND	   888
+  4420	NOT_FOUND	   582
+  2034	basemen  	   192
+  4455	NOT_FOUND	   586
+  2069	NOT_FOUND	   198
+  5683	NOT_FOUND	   799
+  3297	NOT_FOUND	   410
+  5718	NOT_FOUND	   805
+  3332	NOT_FOUND	   418
+   946	NOT_FOUND	   914
+  4560	NOT_FOUND	   602
+   981	NOT_FOUND	   919
+  4595	NOT_FOUND	   603
+  2209	NOT_FOUND	   222
+  5823	NOT_FOUND	   820
+  3437	NOT_FOUND	   433
+  5858	curate   	   826
+
+------------------------------
+
+TEST 6
+
+Console output:
+
+  4381	NOT_FOUND	   574
+  3678	NOT_FOUND	   471
+  4906	NOT_FOUND	   661
+  1327	NOT_FOUND	    58
+  3748	Caribbean	   486
+  1362	NOT_FOUND	    60
+  4976	NOT_FOUND	   676
+  1397	NOT_FOUND	    72
+  3818	NOT_FOUND	   495
+  1432	NOT_FOUND	    78
+  3853	NOT_FOUND	   502
+   274	NOT_FOUND	   307
+  2695	NOT_FOUND	   298
+   309	NOT_FOUND	   371
+  3923	NOT_FOUND	   512
+  5151	conservator	   711
+  2765	NOT_FOUND	   311
+  3993	NOT_FOUND	   524
+  1607	NOT_FOUND	   112
+  5221	NOT_FOUND	   718
+
+------------------------------
+
+Tests 7 to 9: Performed on file SET_C.txt
+- Parameters: 1000 key-value pairs from 1-9000, search keys random up to 9000, 20 search keys.
+
+   950	INSERTIONS	246535
+
+- 950 pairs inserted (50 duplicates were not inserted)
+- 246,535 comparisons made
+
+------------------------------
+
+TEST 7
+
+Console output:
+
+  5665	NOT_FOUND	   570
+  4243	NOT_FOUND	   398
+   664	NOT_FOUND	   685
+  6085	NOT_FOUND	   620
+  2506	NOT_FOUND	   193
+  7927	NOT_FOUND	   816
+  4348	NOT_FOUND	   408
+   769	NOT_FOUND	   790
+  7383	NOT_FOUND	   758
+  2611	NOT_FOUND	   206
+  8032	NOT_FOUND	   827
+  5646	NOT_FOUND	   569
+   874	NOT_FOUND	   902
+  6295	Delaney  	   644
+  3909	NOT_FOUND	   359
+  8137	NOT_FOUND	   837
+  5751	NOT_FOUND	   586
+  2172	bedpost  	   154
+  6400	NOT_FOUND	   659
+  4014	NOT_FOUND	   372
+
+------------------------------
+
+TEST 8
+
+Console output:
+
+   139	accede   	    49
+  6524	NOT_FOUND	   673
+  1752	NOT_FOUND	    96
+  8366	eyesight 	   856
+  4787	NOT_FOUND	   468
+  1208	NOT_FOUND	    25
+  6629	NOT_FOUND	   683
+  4243	NOT_FOUND	   398
+  8471	NOT_FOUND	   874
+  4892	compatible	   486
+  2506	NOT_FOUND	   193
+  6734	NOT_FOUND	   694
+  3155	NOT_FOUND	   268
+   769	NOT_FOUND	   790
+  4997	NOT_FOUND	   503
+  2611	NOT_FOUND	   206
+  8032	NOT_FOUND	   827
+  3260	NOT_FOUND	   282
+   874	NOT_FOUND	   902
+  6295	Delaney  	   644
+
+------------------------------
+
+TEST 9
+
+Console output:
+
+  5646	NOT_FOUND	   569
+  3031	NOT_FOUND	   254
+  7259	NOT_FOUND	   747
+  3680	NOT_FOUND	   328
+  1294	NOT_FOUND	    36
+  5522	NOT_FOUND	   558
+  3136	NOT_FOUND	   267
+  8557	NOT_FOUND	   887
+  3785	NOT_FOUND	   344
+  1399	NOT_FOUND	    51
+  6820	dishwater	   701
+  3241	NOT_FOUND	   278
+  8662	NOT_FOUND	   897
+  5083	NOT_FOUND	   512
+  2697	NOT_FOUND	   216
+  6925	NOT_FOUND	   713
+  4539	NOT_FOUND	   437
+   960	NOT_FOUND	   946
+  5188	NOT_FOUND	   525
+  2802	NOT_FOUND	   230
+
+------------------------------
+
+Tests 10 to 12: Performed on file SET_D.txt
+- Parameters: 1000 key-value pairs from 1-12000, search keys random up to 12000, 20 search keys.
+
+   956	INSERTIONS	245392
+
+- 956 pairs inserted (44 duplicates were not inserted)
+- 245,392 comparisons made
+
+------------------------------
+
+TEST 10
+
+Console output:
+
+  9723	NOT_FOUND	   935
+  2845	NOT_FOUND	   325
+  5266	NOT_FOUND	   526
+  2880	NOT_FOUND	   328
+  5301	NOT_FOUND	   528
+  2915	NOT_FOUND	   330
+   529	NOT_FOUND	   527
+ 10143	NOT_FOUND	    12
+   564	alb      	   559
+ 10178	NOT_FOUND	    13
+  7792	NOT_FOUND	   768
+  5406	NOT_FOUND	   540
+  7827	enzymatic	   772
+  5441	NOT_FOUND	   544
+  3055	NOT_FOUND	   344
+   669	NOT_FOUND	   657
+  3090	NOT_FOUND	   344
+   704	NOT_FOUND	   697
+ 10318	NOT_FOUND	    26
+  7932	NOT_FOUND	   780
+
+------------------------------
+
+TEST 11
+
+Console output:
+
+  1526	NOT_FOUND	   199
+ 11525	NOT_FOUND	   133
+  6753	NOT_FOUND	   664
+  4367	chummy   	   442
+  6788	NOT_FOUND	   668
+  2016	NOT_FOUND	   253
+ 11630	NOT_FOUND	   142
+  2051	NOT_FOUND	   258
+ 11665	NOT_FOUND	   142
+  6893	NOT_FOUND	   679
+  9314	NOT_FOUND	   898
+  6928	NOT_FOUND	   684
+  2156	NOT_FOUND	   263
+ 11770	NOT_FOUND	   150
+  2191	NOT_FOUND	   266
+  9419	NOT_FOUND	   903
+  7033	Doreen   	   695
+  9454	NOT_FOUND	   909
+ 11875	NOT_FOUND	   161
+  2296	NOT_FOUND	   275
+
+------------------------------
+
+TEST 12
+
+Console output:
+
+  6654	NOT_FOUND	   654
+  2232	beige    	   269
+  4653	NOT_FOUND	   463
+ 11881	NOT_FOUND	   161
+  9495	NOT_FOUND	   912
+ 11916	NOT_FOUND	   164
+  7144	NOT_FOUND	   707
+  4758	NOT_FOUND	   470
+  7179	NOT_FOUND	   708
+  2407	NOT_FOUND	   287
+    21	NOT_FOUND	   259
+  2442	NOT_FOUND	   292
+  4863	NOT_FOUND	   482
+  7284	NOT_FOUND	   714
+  9705	NOT_FOUND	   931
+   126	NOT_FOUND	   177
+  2547	NOT_FOUND	   299
+   161	NOT_FOUND	   210
+  2582	NOT_FOUND	   302
+  9810	NOT_FOUND	   941
+
+------------------------------
+
+Tests 13 to 15: Performed on file SET_E.txt
+- Parameters: 1000 key-value pairs from 1-15000, search keys random up to 15000, 20 search keys.
+
+   977	INSERTIONS	243259
+
+- 977 pairs inserted (33 duplicates were not inserted)
+- 243,258 comparisons made
+
+------------------------------
+
+TEST 13
+
+Console output:
+
+   408	NOT_FOUND	   553
+  4916	complement	   612
+ 10337	NOT_FOUND	    28
+ 13951	machine  	   265
+  2565	NOT_FOUND	   440
+  7986	NOT_FOUND	   846
+ 11600	NOT_FOUND	   107
+   214	NOT_FOUND	   411
+  3828	NOT_FOUND	   542
+  9249	NOT_FOUND	   921
+ 12863	NOT_FOUND	   187
+  1477	NOT_FOUND	   332
+  5091	NOT_FOUND	   624
+ 10512	NOT_FOUND	    37
+ 14126	NOT_FOUND	   283
+  2740	NOT_FOUND	   458
+  6354	NOT_FOUND	   723
+ 11775	NOT_FOUND	   117
+   389	NOT_FOUND	   544
+  4003	NOT_FOUND	   547
+
+------------------------------
+
+TEST 14
+
+Console output:
+
+ 13179	lase     	   211
+  8108	NOT_FOUND	   855
+ 13529	NOT_FOUND	   229
+  2143	NOT_FOUND	   411
+  5757	NOT_FOUND	   676
+  9371	NOT_FOUND	   933
+ 14792	mightn't 	   333
+  3406	NOT_FOUND	   508
+  7020	NOT_FOUND	   780
+ 10634	NOT_FOUND	    50
+  1055	NOT_FOUND	    43
+  4669	NOT_FOUND	   591
+  8283	NOT_FOUND	   868
+ 11897	NOT_FOUND	   125
+  2318	NOT_FOUND	   420
+  5932	NOT_FOUND	   693
+  9546	NOT_FOUND	   949
+ 13160	NOT_FOUND	   210
+  3581	NOT_FOUND	   527
+  7195	NOT_FOUND	   788
+
+------------------------------
+
+TEST 15
+
+Console output:
+
+ 12772	NOT_FOUND	   181
+  3543	NOT_FOUND	   520
+  8964	NOT_FOUND	   908
+  1192	NOT_FOUND	   125
+  4806	NOT_FOUND	   600
+ 10227	guise    	    19
+ 13841	lug      	   256
+  6069	NOT_FOUND	   708
+ 11490	NOT_FOUND	   103
+   104	NOT_FOUND	    32
+  7332	NOT_FOUND	   802
+ 12753	NOT_FOUND	   180
+  1367	NOT_FOUND	   238
+  8595	NOT_FOUND	   884
+ 14016	NOT_FOUND	   270
+  2630	NOT_FOUND	   444
+  9858	NOT_FOUND	   968
+ 13472	NOT_FOUND	   228
+  3893	NOT_FOUND	   544
+ 11121	NOT_FOUND	    84
+
+------------------------------
+
+STAGE 1a (BINARY SEARCH)
+
+Test 1a: Performed on file SET_A.txt
+- Parameters: 1000 key-value pairs from 1-3000, search keys random up to 3000, 20 search keys.
+
+------------------------------
+
+TEST 1a
+
+Console output:
+   848	INSERTIONS	228449
+
+- 848 pairs inserted (152 duplicates were not inserted)
+- 228,449 comparisons made
+
+   103	absinthe 	     9
+  1611	NOT_FOUND	     9
+  2225	NOT_FOUND	     9
+  1646	NOT_FOUND	     9
+  2260	NOT_FOUND	     9
+  2874	NOT_FOUND	     9
+   488	NOT_FOUND	     9
+  2909	NOT_FOUND	     9
+   523	NOT_FOUND	     9
+  1137	NOT_FOUND	     9
+  1751	NOT_FOUND	     9
+  1172	NOT_FOUND	     9
+  1786	NOT_FOUND	     9
+  2400	NOT_FOUND	     9
+    14	Aarhus   	     9
+  2435	NOT_FOUND	     9
+    49	NOT_FOUND	     9
+   663	NOT_FOUND	     9
+  1277	NOT_FOUND	     9
+   698	NOT_FOUND	     9
+
+------------------------------
+
+Test 2a: Performed on file SET_B.txt
+- Parameters: 1000 key-value pairs from 1-6000, search keys random up to 6000, 20 search keys.
+
+------------------------------
+
+TEST 2a
+
+Console output:
+
+   919	INSERTIONS	232745
+
+- 919 pairs inserted (81 duplicates were not inserted)
+- 232,745 comparisons made
+
+  5825	NOT_FOUND	     9
+  5017	NOT_FOUND	     9
+   245	Acton    	     9
+  2666	NOT_FOUND	     9
+  5087	NOT_FOUND	     9
+  1508	NOT_FOUND	     9
+  3929	NOT_FOUND	     9
+  1543	NOT_FOUND	     9
+  2771	NOT_FOUND	     9
+  5192	NOT_FOUND	     9
+  2806	bombproof	     9
+  4034	NOT_FOUND	     9
+   455	NOT_FOUND	     9
+  4069	NOT_FOUND	     9
+  5297	NOT_FOUND	     9
+  2911	NOT_FOUND	     9
+  5332	NOT_FOUND	     9
+   560	NOT_FOUND	     9
+  4174	NOT_FOUND	     9
+   595	NOT_FOUND	     9
+
+------------------------------
+
+Test 3a: Performed on file SET_C.txt
+- Parameters: 1000 key-value pairs from 1-9000, search keys random up to 9000, 20 search keys.
+
+------------------------------
+
+TEST 3a
+
+Console output:
+
+   950	INSERTIONS	246535
+
+- 950 pairs inserted (50 duplicates were not inserted)
+- 246,535 comparisons made
+
+  1714	NOT_FOUND	     9
+  8099	NOT_FOUND	     9
+  3327	NOT_FOUND	     9
+   941	NOT_FOUND	     9
+  5169	NOT_FOUND	     9
+  2783	NOT_FOUND	     9
+  8204	NOT_FOUND	     9
+  3432	NOT_FOUND	     9
+  1046	NOT_FOUND	     9
+  6467	NOT_FOUND	     9
+  1695	NOT_FOUND	     9
+  8309	NOT_FOUND	     9
+  4730	NOT_FOUND	     9
+  1151	NOT_FOUND	     9
+  6572	NOT_FOUND	     9
+  2993	NOT_FOUND	     9
+   607	NOT_FOUND	     9
+  4835	NOT_FOUND	     9
+  1256	NOT_FOUND	     9
+  7870	NOT_FOUND	     9
+
+------------------------------
+
+TESTING FINISHED FOR STAGE 1, REFER TO ASSIGNMENT REPORT DOC FOR FINDINGS
+
+
+
+STAGE 2 (SKIP LISTS)
+
+P value = 0.05
+Max Level = 10
+
+Tests 1 to 3: Performed on file SET_A.txt
+- Parameters: 1000 key-value pairs from 1-3000, search keys random up to 3000, 20 search keys.
+
+------------------------------
+
+TEST 1
+
+Console output:
+
+   848	INSERTIONS	 25204
+
+- 848 pairs inserted (152 duplicates were not inserted)
+- 25,204 comparisons made
+
+  2048	NOT_FOUND	    18
+    47	abet     	    71
+  2468	NOT_FOUND	    62
+  1889	NOT_FOUND	    28
+   117	NOT_FOUND	    48
+   731	Alps     	    62
+   152	accident 	    31
+  1380	arrowroot	    11
+  1994	NOT_FOUND	    32
+  1415	NOT_FOUND	    24
+   836	NOT_FOUND	    50
+   257	NOT_FOUND	    24
+  2678	NOT_FOUND	    35
+   292	NOT_FOUND	    49
+  1520	Astor    	    32
+  2134	beatific 	    32
+  1555	NOT_FOUND	    19
+  2783	NOT_FOUND	    53
+   397	NOT_FOUND	    46
+  2818	NOT_FOUND	    67
+
+------------------------------
+
+TEST 2
+
+Console output:
+
+   848	INSERTIONS	 24114
+
+- 848 pairs inserted (152 duplicates were not inserted)
+- 25,114 comparisons made
+
+   101	NOT_FOUND	     5
+   486	agree    	    41
+  1714	NOT_FOUND	    10
+  2328	NOT_FOUND	    19
+  2942	NOT_FOUND	    43
+  1170	NOT_FOUND	    38
+   591	aldehyde 	    38
+  1205	NOT_FOUND	     7
+  2433	NOT_FOUND	    26
+    47	abet     	    38
+  2468	NOT_FOUND	    19
+   696	NOT_FOUND	    55
+  1310	NOT_FOUND	    16
+   731	Alps     	    69
+   152	accident 	    13
+  2573	NOT_FOUND	    33
+  1994	NOT_FOUND	    14
+  2608	bladderwort	    41
+   836	NOT_FOUND	    35
+   257	NOT_FOUND	    32
+
+------------------------------
+
+TEST 3
+
+Console output:
+
+   848	INSERTIONS	 23625
+
+- 848 pairs inserted (152 duplicates were not inserted)
+- 23,625 comparisons made
+
+  1927	NOT_FOUND	    21
+   505	NOT_FOUND	    12
+  2926	NOT_FOUND	    16
+   540	NOT_FOUND	    23
+  1768	Ayers    	    34
+  1189	applique 	    53
+  1803	backdrop 	    47
+    31	NOT_FOUND	    10
+   645	NOT_FOUND	    55
+    66	NOT_FOUND	     5
+  1294	arena    	    91
+  1908	NOT_FOUND	    17
+  1329	NOT_FOUND	   100
+  2557	biscuit  	    11
+   171	NOT_FOUND	     7
+  2592	blackberry	    19
+  2013	Barrymore	    19
+  1434	NOT_FOUND	    13
+  2048	NOT_FOUND	    31
+   276	NOT_FOUND	     3
+
+------------------------------
+
+Tests 4 to 6: Performed on file SET_B.txt
+- Parameters: 1000 key-value pairs from 1-6000, search keys random up to 6000, 20 search keys.
+
+------------------------------
+
+TEST 4
+
+Console output:
+
+   919	INSERTIONS	 24699
+
+- 919 pairs inserted (81 duplicates were not inserted)
+- 24,699 comparisons made
+
+  4924	NOT_FOUND	    38
+  2923	NOT_FOUND	    12
+  5344	NOT_FOUND	    23
+   572	NOT_FOUND	    26
+  2993	NOT_FOUND	    27
+   607	NOT_FOUND	    80
+  1835	badland  	    18
+  4256	NOT_FOUND	    13
+  1870	NOT_FOUND	    23
+  3098	bridle   	    43
+   712	NOT_FOUND	    94
+  3133	Britten  	    12
+  4361	NOT_FOUND	    30
+  1975	NOT_FOUND	    38
+  4396	NOT_FOUND	    20
+  5624	NOT_FOUND	    36
+  3238	NOT_FOUND	     7
+  5659	NOT_FOUND	    40
+  2080	NOT_FOUND	    54
+  4501	NOT_FOUND	    31
+
+------------------------------
+
+TEST 5
+
+Console output:
+
+   919	INSERTIONS	 21244
+
+- 919 pairs inserted (81 duplicates were not inserted)
+- 21,244 comparisons made
+
+  2608	bladderwort	    41
+  4186	NOT_FOUND	    15
+  5414	NOT_FOUND	    29
+  1835	badland  	    29
+  3063	NOT_FOUND	    13
+   677	NOT_FOUND	    49
+  3098	bridle   	    13
+  5519	countryman	    32
+  1940	NOT_FOUND	    44
+  4361	NOT_FOUND	    19
+   782	NOT_FOUND	    67
+  3203	NOT_FOUND	    31
+   817	NOT_FOUND	    69
+  2045	basin    	    64
+  4466	NOT_FOUND	    34
+  2080	NOT_FOUND	    11
+  3308	NOT_FOUND	    22
+   922	NOT_FOUND	     6
+  3343	Burke    	    31
+  4571	NOT_FOUND	    18
+
+------------------------------
+
+TEST 6
+
+Console output:
+
+   919	INSERTIONS	 25659
+
+- 919 pairs inserted (81 duplicates were not inserted)
+- 25,659 comparisons made
+
+  1961	NOT_FOUND	    49
+  2311	Bennett  	    40
+  5925	NOT_FOUND	    22
+  2346	NOT_FOUND	    43
+  4767	NOT_FOUND	    26
+  2381	beset    	    48
+  5995	NOT_FOUND	    20
+  1223	NOT_FOUND	    40
+  4837	NOT_FOUND	    12
+  2451	NOT_FOUND	    61
+    65	NOT_FOUND	    25
+  1293	NOT_FOUND	     4
+  4907	NOT_FOUND	    12
+  2521	NOT_FOUND	    67
+  3749	NOT_FOUND	    70
+  1363	NOT_FOUND	    11
+  4977	NOT_FOUND	    19
+  2591	NOT_FOUND	    83
+  3819	casbah   	    79
+  1433	NOT_FOUND	    29
+
+------------------------------
+
+Tests 7 to 9: Performed on file SET_C.txt
+- Parameters: 1000 key-value pairs from 1-9000, search keys random up to 9000, 20 search keys.
+
+------------------------------
+
+TEST 7
+
+Console output:
+
+   950	INSERTIONS	 24950
+
+- 950 pairs inserted (50 duplicates were not inserted)
+- 24,950 comparisons made
+
+  7221	NOT_FOUND	    30
+  2220	NOT_FOUND	    20
+  6448	depress  	    42
+  4062	NOT_FOUND	    30
+   483	NOT_FOUND	    40
+  7097	NOT_FOUND	    24
+  2325	NOT_FOUND	    31
+  8939	NOT_FOUND	    61
+  5360	NOT_FOUND	    71
+   588	NOT_FOUND	    43
+  7202	NOT_FOUND	    29
+  3623	NOT_FOUND	    35
+    44	NOT_FOUND	    43
+  5465	NOT_FOUND	    77
+  1886	ballet   	    16
+  7307	NOT_FOUND	    42
+  3728	NOT_FOUND	    42
+   149	NOT_FOUND	     8
+  5570	NOT_FOUND	    87
+  1991	NOT_FOUND	     8
+
+------------------------------
+
+TEST 8
+
+Console output:
+
+   950	INSERTIONS	 22637
+
+- 950 pairs inserted (50 duplicates were not inserted)
+- 22,637 comparisons made
+
+  6944	NOT_FOUND	    11
+  5522	NOT_FOUND	     6
+   750	NOT_FOUND	    65
+  7364	NOT_FOUND	    53
+  3785	NOT_FOUND	    21
+  8013	NOT_FOUND	    16
+  5627	NOT_FOUND	     5
+  2048	NOT_FOUND	    37
+  7469	NOT_FOUND	    63
+  3890	NOT_FOUND	    35
+   311	NOT_FOUND	    46
+  5732	NOT_FOUND	    20
+  2153	NOT_FOUND	    52
+  7574	NOT_FOUND	    74
+  3995	NOT_FOUND	    19
+   416	NOT_FOUND	    36
+  7030	NOT_FOUND	    24
+  2258	NOT_FOUND	    62
+  7679	NOT_FOUND	    19
+  5293	NOT_FOUND	    36
+
+------------------------------
+
+TEST 9
+
+Console output:
+
+   950	INSERTIONS	 21755
+
+- 950 pairs inserted (50 duplicates were not inserted)
+- 21,755 comparisons made
+
+  8652	NOT_FOUND	    40
+  6037	NOT_FOUND	    40
+  3651	canto    	    46
+  7879	NOT_FOUND	    21
+  5493	NOT_FOUND	    36
+  1914	NOT_FOUND	     2
+  6142	debunk   	    51
+  3756	NOT_FOUND	    57
+   177	NOT_FOUND	    27
+  5598	NOT_FOUND	    46
+  2019	NOT_FOUND	     4
+  7440	NOT_FOUND	    11
+  3861	NOT_FOUND	    17
+   282	NOT_FOUND	    12
+  6896	NOT_FOUND	    46
+  2124	bear     	     8
+  7545	NOT_FOUND	    14
+  5159	NOT_FOUND	    14
+   387	NOT_FOUND	    17
+  5808	NOT_FOUND	    10
+
+------------------------------
+
+Tests 10 to 12: Performed on file SET_D.txt
+- Parameters: 1000 key-value pairs from 1-12000, search keys random up to 12000, 20 search keys.
+
+------------------------------
+
+TEST 10
+
+Console output:
+
+   956	INSERTIONS	 17827
+
+- 956 pairs inserted (44 duplicates were not inserted)
+- 17,827 comparisons made
+
+  1118	NOT_FOUND	    36
+  1433	NOT_FOUND	    14
+  3854	NOT_FOUND	    39
+  1468	aspire   	    11
+  6275	NOT_FOUND	     3
+  3889	NOT_FOUND	    44
+  6310	NOT_FOUND	     7
+  3924	NOT_FOUND	    46
+  1538	NOT_FOUND	    17
+ 11152	NOT_FOUND	    35
+  8766	NOT_FOUND	    24
+ 11187	NOT_FOUND	    36
+  8801	NOT_FOUND	    25
+  6415	NOT_FOUND	    13
+  4029	NOT_FOUND	    53
+  6450	NOT_FOUND	    15
+  4064	NOT_FOUND	    54
+  1678	NOT_FOUND	    21
+ 11292	NOT_FOUND	    41
+  6520	NOT_FOUND	    22
+
+------------------------------
+
+TEST 11
+
+Console output:
+
+   956	INSERTIONS	 21875
+
+- 956 pairs inserted (44 duplicates were not inserted)
+- 21,875 comparisons made
+
+  4991	NOT_FOUND	    19
+  7762	NOT_FOUND	    16
+  2990	NOT_FOUND	    22
+   604	NOT_FOUND	    85
+  3025	NOT_FOUND	    19
+  5446	NOT_FOUND	    30
+  7867	NOT_FOUND	    16
+ 10288	NOT_FOUND	    10
+   709	NOT_FOUND	    20
+  3130	British  	    27
+  5551	covenant 	    35
+  7972	NOT_FOUND	    21
+ 10393	NOT_FOUND	    19
+  8007	NOT_FOUND	    22
+  3235	NOT_FOUND	    35
+  5656	NOT_FOUND	    46
+  3270	NOT_FOUND	    39
+ 10498	NOT_FOUND	     5
+  8112	NOT_FOUND	    32
+ 10533	NOT_FOUND	     7
+
+------------------------------
+
+TEST 12
+
+Console output:
+
+   956	INSERTIONS	 30068
+
+- 956 pairs inserted (44 duplicates were not inserted)
+- 30,068 comparisons made
+
+  8363	NOT_FOUND	    71
+  6292	NOT_FOUND	    37
+  1520	NOT_FOUND	    13
+ 11134	NOT_FOUND	    34
+  8748	NOT_FOUND	   109
+ 11169	NOT_FOUND	    38
+  1590	NOT_FOUND	    21
+ 11204	NOT_FOUND	    38
+  8818	NOT_FOUND	   112
+ 11239	humidistat	    41
+  1660	NOT_FOUND	    29
+ 11274	NOT_FOUND	    43
+  8888	NOT_FOUND	   116
+ 11309	NOT_FOUND	    45
+  8923	NOT_FOUND	   120
+ 11344	NOT_FOUND	    47
+  8958	NOT_FOUND	   124
+ 11379	ibid     	    52
+  8993	NOT_FOUND	   129
+ 11414	NOT_FOUND	    54
+
+------------------------------
+
+Tests 13 to 15: Performed on file SET_E.txt
+- Parameters: 1000 key-value pairs from 1-15000, search keys random up to 15000, 20 search keys.
+
+------------------------------
+
+TEST 13
+
+Console output:
+
+   977	INSERTIONS	 27002
+
+- 977 pairs inserted (33 duplicates were not inserted)
+- 27,002 comparisons made
+
+  4726	NOT_FOUND	    73
+  3269	NOT_FOUND	    29
+  6883	NOT_FOUND	    19
+ 10497	NOT_FOUND	    23
+   918	NOT_FOUND	    19
+  6339	NOT_FOUND	     7
+  9953	NOT_FOUND	    41
+ 13567	NOT_FOUND	    25
+  3988	NOT_FOUND	    36
+  9409	NOT_FOUND	    27
+ 13023	NOT_FOUND	    22
+  3444	NOT_FOUND	    36
+  7058	NOT_FOUND	    22
+ 10672	NOT_FOUND	    39
+  1093	NOT_FOUND	    57
+  6514	NOT_FOUND	    13
+ 10128	NOT_FOUND	     9
+ 13742	NOT_FOUND	    43
+  2356	NOT_FOUND	    36
+  9584	NOT_FOUND	    29
+
+------------------------------
+
+TEST 14
+
+Console output:
+
+   977	INSERTIONS	 25199
+
+- 977 pairs inserted (33 duplicates were not inserted)
+- 25,199 comparisons made
+
+  2242	NOT_FOUND	    15
+ 11627	NOT_FOUND	     6
+   241	NOT_FOUND	    11
+  7469	NOT_FOUND	    35
+ 12890	NOT_FOUND	    12
+  1504	NOT_FOUND	    27
+  8732	NOT_FOUND	    81
+ 14153	NOT_FOUND	    14
+  2767	NOT_FOUND	    41
+  9995	NOT_FOUND	    25
+ 13609	NOT_FOUND	    53
+  4030	NOT_FOUND	    22
+ 11258	Hungary  	    34
+ 14872	NOT_FOUND	    12
+  5293	NOT_FOUND	    22
+  8907	NOT_FOUND	    95
+  1135	NOT_FOUND	    38
+  6556	NOT_FOUND	    19
+ 10170	NOT_FOUND	     8
+  2398	bestow   	    11
+
+------------------------------
+
+TEST 15
+
+Console output:
+
+   977	INSERTIONS	 23623
+
+- 977 pairs inserted (33 duplicates were not inserted)
+- 23,623 comparisons made
+
+  4593	NOT_FOUND	    73
+ 12171	NOT_FOUND	    74
+  2592	NOT_FOUND	    31
+  8013	NOT_FOUND	    15
+ 13434	NOT_FOUND	    25
+  3855	NOT_FOUND	    31
+  9276	NOT_FOUND	     7
+ 14697	NOT_FOUND	    35
+  5118	NOT_FOUND	    48
+  8732	NOT_FOUND	    30
+   960	NOT_FOUND	    11
+  6381	NOT_FOUND	    33
+  9995	NOT_FOUND	    18
+  2223	NOT_FOUND	    23
+  5837	Culver   	    52
+ 11258	Hungary  	    27
+  3486	NOT_FOUND	    77
+  7100	NOT_FOUND	     6
+ 12521	NOT_FOUND	    15
+  2942	NOT_FOUND	    37
+
+------------------------------
+
+STAGE 2a (SKIP LISTS)
+
+P value = 0.5 <<
+Max Level = 10
+
+Test 1a: Performed on file SET_A.txt
+- Parameters: 1000 key-value pairs from 1-3000, search keys random up to 3000, 20 search keys.
+
+------------------------------
+
+TEST 1a
+
+Console output:
+
+   848	INSERTIONS	  8463
+
+- 848 pairs inserted (152 duplicates were not inserted)
+- 8,463 comparisons made
+
+   570	NOT_FOUND	    10
+  2762	bodybuild	     6
+  2183	NOT_FOUND	     8
+   411	affidavit	    11
+  2832	NOT_FOUND	     7
+   446	NOT_FOUND	     7
+  1674	NOT_FOUND	    11
+  1095	antler   	    11
+  1709	Aventine 	     5
+  2937	bow      	     6
+  2358	Bernardo 	     8
+  2972	Bradford 	     7
+  1200	NOT_FOUND	     7
+   621	NOT_FOUND	    15
+  1235	arabesque	     8
+  2463	biddable 	     9
+    77	NOT_FOUND	    12
+  2498	NOT_FOUND	    10
+   726	NOT_FOUND	     9
+  1340	NOT_FOUND	     7
+
+------------------------------
+
+Test 2a: Performed on file SET_B.txt
+- Parameters: 1000 key-value pairs from 1-6000, search keys random up to 9000, 20 search keys.
+
+------------------------------
+TEST 2a
+
+Console output:
+
+   919	INSERTIONS	  8177
+
+- 919 pairs inserted (81 duplicates were not inserted)
+- 8,177 comparisons made
+
+  4860	NOT_FOUND	     9
+  4052	NOT_FOUND	     8
+   473	NOT_FOUND	     6
+  4087	NOT_FOUND	    11
+   508	ail      	    12
+  1736	avow     	     6
+  5350	NOT_FOUND	     6
+  1771	NOT_FOUND	     6
+  4192	NOT_FOUND	    11
+   613	NOT_FOUND	    12
+  3034	NOT_FOUND	     8
+  5455	cosmic   	    14
+  1876	NOT_FOUND	     6
+  5490	councilmen	     9
+   718	NOT_FOUND	    12
+  3139	NOT_FOUND	     8
+   753	NOT_FOUND	    12
+  3174	NOT_FOUND	     7
+  4402	NOT_FOUND	     9
+  2016	NOT_FOUND	     6
+
+------------------------------
+
+Test 3a: Performed on file SET_C.txt
+- Parameters: 1000 key-value pairs from 1-9000, search keys random up to 9000, 20 search keys.
+
+------------------------------
+TEST 3a
+
+Console output:
+
+   950	INSERTIONS	  7921
+
+- 950 pairs inserted (50 duplicates were not inserted)
+- 7,921 comparisons made
+
+  3765	NOT_FOUND	     7
+  4080	NOT_FOUND	     7
+   501	NOT_FOUND	     9
+  5922	NOT_FOUND	    12
+  3536	NOT_FOUND	    10
+  1150	NOT_FOUND	     5
+  6571	NOT_FOUND	     9
+  4185	NOT_FOUND	     6
+  1799	bacillus 	     7
+  8413	NOT_FOUND	    18
+  4834	commend  	     8
+  2448	NOT_FOUND	     8
+    62	NOT_FOUND	     7
+  6676	dietetic 	     8
+  3097	NOT_FOUND	     9
+   711	almost   	     6
+  7325	NOT_FOUND	    11
+  4939	NOT_FOUND	     9
+  2553	NOT_FOUND	     5
+  7974	NOT_FOUND	    11
+
+------------------------------
+
+STAGE 2b (SKIP LISTS)
+
+P value = 0.05
+Max Level = 20 <<
+
+Test 1b: Performed on file SET_A.txt
+- Parameters: 1000 key-value pairs from 1-3000, search keys random up to 3000, 20 search keys.
+
+------------------------------
+
+TEST 1b
+
+Console output:
+
+   848	INSERTIONS	 28327
+
+- 848 pairs inserted (152 duplicates were not inserted)
+- 28,327 comparisons made
+
+  2347	NOT_FOUND	    60
+  2732	NOT_FOUND	    70
+  2153	Bechtel  	    12
+   381	NOT_FOUND	    55
+  2802	bombard  	    92
+   416	NOT_FOUND	    63
+  1644	NOT_FOUND	    46
+  1065	NOT_FOUND	    21
+  1679	NOT_FOUND	    57
+  2907	NOT_FOUND	    46
+  2328	NOT_FOUND	    56
+  2942	NOT_FOUND	    58
+  1170	NOT_FOUND	     1
+  1784	baboon   	    99
+  1205	NOT_FOUND	    11
+  2433	NOT_FOUND	    18
+    47	abet     	    83
+  2468	NOT_FOUND	    22
+  1889	NOT_FOUND	    13
+  1310	NOT_FOUND	    37
+
+------------------------------
+
+Test 2b: Performed on file SET_B.txt
+- Parameters: 1000 key-value pairs from 1-6000, search keys random up to 9000, 20 search keys.
+
+------------------------------
+TEST 2b
+
+Console output:
+
+   919	INSERTIONS	 28731
+
+- 919 pairs inserted (81 duplicates were not inserted)
+- 28,731 comparisons made
+
+  1299	NOT_FOUND	     4
+  1614	NOT_FOUND	    11
+  5228	NOT_FOUND	    19
+  2842	NOT_FOUND	    96
+  5263	NOT_FOUND	    20
+  2877	NOT_FOUND	   103
+   491	NOT_FOUND	    25
+  4105	NOT_FOUND	     5
+   526	NOT_FOUND	    20
+  4140	NOT_FOUND	     2
+  1754	NOT_FOUND	    36
+  5368	NOT_FOUND	    30
+  1789	NOT_FOUND	    42
+  5403	NOT_FOUND	    36
+  3017	bravery  	    28
+   631	NOT_FOUND	    29
+  3052	NOT_FOUND	    36
+   666	NOT_FOUND	    34
+  4280	NOT_FOUND	    23
+  1894	NOT_FOUND	    64
+
+------------------------------
+
+Test 3b: Performed on file SET_C.txt
+- Parameters: 1000 key-value pairs from 1-9000, search keys random up to 9000, 20 search keys.
+
+------------------------------
+TEST 3b
+
+Console output:
+
+   950	INSERTIONS	 19288
+
+- 950 pairs inserted (50 duplicates were not inserted)
+- 19,288 comparisons made
+
+  6247	NOT_FOUND	    26
+  3632	NOT_FOUND	     4
+  7860	NOT_FOUND	    19
+  4281	NOT_FOUND	    20
+   702	NOT_FOUND	    12
+  6123	NOT_FOUND	    15
+  2544	NOT_FOUND	    15
+  7965	NOT_FOUND	    30
+  4386	NOT_FOUND	    10
+   807	NOT_FOUND	    39
+  6228	NOT_FOUND	    26
+  2649	NOT_FOUND	    29
+  8070	NOT_FOUND	    39
+  4491	NOT_FOUND	    21
+  2105	NOT_FOUND	    32
+  6333	NOT_FOUND	    15
+  3947	NOT_FOUND	    27
+   368	NOT_FOUND	     7
+  4596	NOT_FOUND	    24
+  2210	NOT_FOUND	     3
+
+------------------------------
+
+STAGE 2c (SKIP LISTS)
+
+P value = 0.5 <<
+Max Level = 20 <<
+
+Test 1c: Performed on file SET_A.txt
+- Parameters: 1000 key-value pairs from 1-3000, search keys random up to 3000, 20 search keys.
+
+------------------------------
+
+TEST 1c
+
+Console output:
+
+   848	INSERTIONS	  7060
+
+- 848 pairs inserted (152 duplicates were not inserted)
+- 7,060 comparisons made
+
+   648	NOT_FOUND	     7
+  2226	NOT_FOUND	    16
+   454	against  	     9
+  2875	NOT_FOUND	     4
+  2296	NOT_FOUND	     9
+  1717	NOT_FOUND	     3
+  1138	NOT_FOUND	     4
+  1752	NOT_FOUND	     7
+  2980	NOT_FOUND	     8
+   594	alderman 	     9
+    15	NOT_FOUND	     6
+  1243	NOT_FOUND	     1
+  1857	NOT_FOUND	    11
+  1278	NOT_FOUND	     4
+   699	allusive 	    12
+   120	NOT_FOUND	     9
+  2541	NOT_FOUND	    10
+  1962	barbital 	    10
+  1383	NOT_FOUND	    10
+   804	NOT_FOUND	     8
+
+------------------------------
+
+Test 2c: Performed on file SET_B.txt
+- Parameters: 1000 key-value pairs from 1-6000, search keys random up to 9000, 20 search keys.
+
+------------------------------
+TEST 2c
+
+Console output:
+
+   919	INSERTIONS	  7826
+
+- 919 pairs inserted (81 duplicates were not inserted)
+- 7,826 comparisons made
+
+  3860	NOT_FOUND	    10
+  5368	NOT_FOUND	    10
+  1789	NOT_FOUND	     5
+  5403	NOT_FOUND	    11
+  3017	bravery  	     9
+   631	NOT_FOUND	     5
+  3052	NOT_FOUND	     3
+   666	NOT_FOUND	     9
+  4280	NOT_FOUND	     6
+  1894	NOT_FOUND	     7
+  5508	NOT_FOUND	     5
+  1929	NOT_FOUND	     2
+  5543	NOT_FOUND	     7
+  3157	NOT_FOUND	     4
+   771	A&M      	    10
+  3192	NOT_FOUND	     6
+   806	NOT_FOUND	    15
+  4420	NOT_FOUND	    12
+  2034	basemen  	     8
+  4455	NOT_FOUND	    16
+
+------------------------------
+
+Test 3c: Performed on file SET_C.txt
+- Parameters: 1000 key-value pairs from 1-9000, search keys random up to 9000, 20 search keys.
+
+------------------------------
+TEST 3c
+
+Console output:
+
+   950	INSERTIONS	  7560
+
+- 950 pairs inserted (50 duplicates were not inserted)
+- 7,560 comparisons made
+
+  5474	NOT_FOUND	    14
+  5789	NOT_FOUND	     8
+  2210	NOT_FOUND	     6
+  8824	NOT_FOUND	    10
+  6438	NOT_FOUND	    13
+  4052	NOT_FOUND	     7
+   473	NOT_FOUND	     8
+  7087	NOT_FOUND	    10
+  4701	NOT_FOUND	     4
+  2315	NOT_FOUND	     6
+  7736	NOT_FOUND	     9
+  5350	NOT_FOUND	    14
+  2964	NOT_FOUND	     9
+   578	NOT_FOUND	     8
+  5999	NOT_FOUND	    10
+  3613	NOT_FOUND	    10
+  1227	NOT_FOUND	     4
+  7841	NOT_FOUND	    12
+  4262	NOT_FOUND	     9
+  1876	NOT_FOUND	    12
+
+------------------------------
+
+TESTING FINISHED FOR STAGE 2, REFER TO ASSIGNMENT REPORT DOC FOR FINDINGS
+
